@@ -21,7 +21,7 @@ for doc in student_list:
     print("  Student ID: " + doc["student_id"] + "\n  First Name: " + doc["first_name"] + "\n  Last Name: " + doc["last_name"] + "\n")
 
 # update student_id 1007
-result = students.update_one({"student_id": "1007"}, {"$set": {"last_name": "Darcy"}})
+result = students.update_one({"student_id": "1007"}, {"$set": {"last_name": "austen"}})
 
 # find the updated student document 
 jane = students.find_one({"student_id": "1007"})

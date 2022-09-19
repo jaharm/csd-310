@@ -1,6 +1,7 @@
 #Jessica Harman
-#Assignment 5.3
-#09/03/2022
+#Assignment 6.2
+#09/10/2022
+
 from pymongo import MongoClient
 url = "mongodb+srv://python:Mu3J8Ul3FDuiQJtU@cluster0.ush2cwx.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(url)
