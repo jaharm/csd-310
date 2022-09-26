@@ -2,6 +2,7 @@
     mysql_test.py
     Jessica Harman
     Date: September 25, 2022
+    Assignment 9.3
 """
 import mysql.connector
 from mysql.connector import errorcode

@@ -1,6 +1,7 @@
 """ 
     mysql_test.py
     Jessica Harman
+    Assignment 9.2
     Date: September 25, 2022
 """
 import mysql.connector
